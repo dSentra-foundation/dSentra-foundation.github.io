@@ -6,33 +6,50 @@
 .tagline3 {
   font-family: 'Manrope', sans-serif;
 }
+/* Position the table */
+table {
+  margin-left: 15%;
+  margin-top: 15%;
+}
 
+.empty-row {
+  height: 100px; /* Adjust the height as needed */
+  background-color: #fff;
+}
 /* First Tagline - Similar to H1 */
 .tagline1 {
   font-size: 7.5em;
   font-weight: normal;
-  color: #333; /* Adjust color as needed */
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  color: #000; /* Adjust color as needed */
+  justify-content: left;
+  align-items: left;
+  text-align: left;
 }
 
 /* Second Tagline - Smaller than H1 */
 .tagline2 {
   font-size: 2.5em;
   font-weight: bold;
-  color: #555; /* Adjust color as needed */
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  color: #111; /* Adjust color as needed */
+  justify-content: left;
+  align-items: left;
+  text-align: left;
 }
 
 /* Third Tagline - Smaller than Tagline2 */
 .tagline3 {
   font-size: 2em;
   font-weight: normal;
-  color: #777; /* Adjust color as needed */
-  justify-content: center;
+  color: #222; /* Adjust color as needed */
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+.launch-dapp {
+  font-size: 2.5em;
+  font-weight: normal;
+  -webkit-text-stroke: 1px #000;
+  content: center;
   align-items: center;
   text-align: center;
-}
+  }

@@ -8,13 +8,13 @@ body {
 :root {
     
     /* fonts */
-    --font-inter: Inter;
+    --font-inter: Manrope;
     
     /* font sizes */
     --font-size-6xl: 1.56rem;
     --font-size-11xl: 1.88rem;
     
     /* Colors */
-    --color-white: #fff;
+    --color-white: #000;
     
 }
