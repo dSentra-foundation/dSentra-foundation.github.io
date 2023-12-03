@@ -1,25 +1,49 @@
-/* styles.css */
+/* index.css */
+/*dSentra Logo*/
+#logo {
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  width: 80px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px; /* Optional margin to create space from the edges */
+}
+/* Upper-right menu*/
+/* Position the upper-right menu table */
+.upper-menu {
+  position: absolute;
+  display: inline-block;
+  right: 5%;
+  top: 1%;
+ }
+.menu-item {
+  padding: 12px;
+  text-align: right;
+  display: inline-block;
+  color: #000;
+}
 
 /* Set the font family for all taglines */
+.menu-item,
 .tagline1,
 .tagline2,
 .tagline3 {
   font-family: 'Manrope', sans-serif;
 }
-/* Position the table */
+/* Position the taglines table */
 table {
   margin-left: 15%;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .empty-row {
-  height: 100px; /* Adjust the height as needed */
+  height: 50px; /* Adjust the height as needed */
   background-color: #fff;
 }
 /* First Tagline - Similar to H1 */
 .tagline1 {
-  font-size: 7.5em;
-  font-weight: normal;
+  font-size: 12em;
+  font-weight: bold;
   color: #000; /* Adjust color as needed */
   justify-content: left;
   align-items: left;
@@ -28,8 +52,8 @@ table {
 
 /* Second Tagline - Smaller than H1 */
 .tagline2 {
-  font-size: 2.5em;
-  font-weight: bold;
+  font-size: 2em;
+  font-weight: normal;
   color: #111; /* Adjust color as needed */
   justify-content: left;
   align-items: left;
@@ -38,18 +62,10 @@ table {
 
 /* Third Tagline - Smaller than Tagline2 */
 .tagline3 {
-  font-size: 2em;
+  font-size: 1.3em;
   font-weight: normal;
   color: #222; /* Adjust color as needed */
   justify-content: left;
   align-items: left;
   text-align: left;
 }
-.launch-dapp {
-  font-size: 2.5em;
-  font-weight: normal;
-  -webkit-text-stroke: 1px #000;
-  content: center;
-  align-items: center;
-  text-align: center;
-  }
